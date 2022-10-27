@@ -1,1 +1,45 @@
-/* start your css here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  text-align: center;
+  width: 60%;
+}
+#title-image {
+  width: 90%;
+}
+h2 {
+  margin-top: 5%;
+  font-size: xx-large;
+}
+img {
+  margin: 4%;
+}
+#paragraph-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#paragraph {
+  width: 70%;
+  text-align: left;
+}
+p {
+  margin-top: 4%;
+  font-size: medium;
+}
+
+footer {
+  margin-bottom: 4%;
+}
