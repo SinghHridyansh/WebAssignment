@@ -1,0 +1,104 @@
+/* start your css here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+/* Base Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main {
+  background-color: grey;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+#container {
+  width: 40%;
+  height: 550px;
+  background-color: black;
+  align-items: center;
+  border: 2px solid white;
+}
+#insides {
+  margin: 30px;
+  /* background-color: blueviolet; */
+  height: 500px;
+}
+h3 {
+  color: white;
+}
+a {
+  /* text-decoration: none; */
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+.row {
+  display: flex;
+  /* justify-content: space-between; */
+
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+.row {
+  justify-content: center;
+}
+#subs {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+form {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#check {
+  height: 40px;
+  width: 40px;
+}
+#terms {
+  color: white;
+}
+form input {
+  font-size: 15px;
+  padding-left: 20px;
+}
+#submit-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;`
+}
+#submit {
+  height: 50px;
+  width: 200px;
+  color: white;
+  background-color: black;
+  border: 3px solid white;
+  font-size: large;
+}
+.lower-section {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+#terms {
+  margin-left: 30px;
+}
