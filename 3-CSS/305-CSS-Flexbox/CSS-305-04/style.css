@@ -1,1 +1,145 @@
-/* start your styling here  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+
+h1,
+h2,
+p {
+  margin: 1.6rem 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* .row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+} */
+
+/* Hero Section */
+/* header {
+  height: 100vh;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+} */
+
+.logo img {
+  /* font-size: 3.2rem;
+  color: #4caf50; */
+  margin: 0;
+  height: 30px;
+}
+
+nav {
+  padding: 2% 8%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(76, 76, 248);
+  height: 10%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 2.5rem;
+}
+
+nav ul li a:hover {
+  color: #4caf50;
+  transition: 0.1s ease-in-out;
+}
+button {
+  height: 30px;
+  width: 120px;
+  font-size: medium;
+  color: rgb(46, 46, 255);
+}
+.cart {
+  display: flex;
+  justify-content: center;
+}
+.cart-icon img {
+  margin: 0;
+  height: 30px;
+  /* margin-right: 10px; */
+}
+.cart-icon a {
+  margin-left: 20px;
+}
+button:hover {
+  background-color: grey;
+  color: white;
+  border: none;
+}
+.searchbox {
+  width: 40%;
+  background-color: aqua;
+}
+.search {
+  width: 100%;
+  height: 30px;
+  font-size: medium;
+  padding-left: 10px;
+}
+h5 {
+  font-size: medium;
+  font-weight: 500;
+}
+.category {
+  width: 7%;
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.category img {
+  width: 70px;
+}
+.category-container {
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
