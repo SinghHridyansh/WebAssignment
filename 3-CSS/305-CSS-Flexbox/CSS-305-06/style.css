@@ -1,1 +1,163 @@
-/* start your styling here  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  /* font-weight: 400; */
+  font-size: 14px;
+  color: grey;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo img {
+  margin: 0;
+  height: 30px;
+}
+
+nav {
+  padding: 2% 8%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: aqua; */
+  height: 20%;
+}
+.right-side {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: blueviolet; */
+  width: 65%;
+}
+
+/* Buttons */
+
+.login-button {
+  margin-left: -2%;
+}
+#login-button {
+  height: 50px;
+  width: 120px;
+  font-size: medium;
+  background-color: white;
+  color: rgb(99, 152, 221);
+  border-color: rgb(99, 152, 221);
+  border-radius: 30px;
+}
+#join-now-button {
+  height: 50px;
+  width: 120px;
+  font-size: medium;
+  color: grey;
+  border-color: white;
+  background-color: white;
+  border-radius: 30px;
+  border-style: none;
+}
+#login-button:hover {
+  background-color: rgb(212, 224, 241);
+  border-color: rgb(99, 152, 221);
+  color: rgb(99, 152, 221);
+  border: none;
+  border-radius: 30px;
+}
+#join-now-button:hover {
+  background-color: rgb(221, 221, 221);
+  color: grey;
+  border: none;
+  border-radius: 30px;
+}
+
+.discover-icon {
+  /* background-color: aqua; */
+  width: 20px;
+}
+.nav-icons {
+  /* background-color: blueviolet; */
+  margin-left: 15%;
+  text-align: center;
+}
+.nav-icons-container {
+  display: flex;
+  margin-left: 10%;
+}
+.nav-icons a:hover {
+  background-color: rgb(221, 221, 221);
+}
+.line-container {
+  margin-left: 14%;
+}
+
+.line {
+  height: 50px;
+  width: 2px;
+  background-color: grey;
+}
+.Body-container {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  /* background-color: aqua; */
+  width: 100%;
+  /* max-width: 80%; */
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  /* background-color: blueviolet; */
+  margin: 0%;
+  width: 50%;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+input {
+  width: 65%;
+  height: 15%;
+  margin-top: 2%;
+  padding-left: 2%;
+}
+.Agree-button {
+  width: 65%;
+  height: 15%;
+  background-color: rgb(86, 86, 179);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-size: large;
+  margin-top: 2%;
+}
+p {
+  text-align: left;
+}
+.agree {
+  margin-top: 2%;
+  font-size: 15px;
+}
+.agree p {
+}
+.or {
+  margin-left: 6%;
+  margin-top: 2%;
+}
+.already {
+  margin-left: 20%;
+}
