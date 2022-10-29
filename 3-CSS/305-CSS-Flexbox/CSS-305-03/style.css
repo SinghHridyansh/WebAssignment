@@ -1,1 +1,87 @@
-/* start your styling here  */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Raleway:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+
+  font-family: "Oswald", sans-serif;
+}
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; */
+#container {
+  border-radius: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  display: flex;
+}
+#div-1 {
+  background-color: #e38826;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+#div-2 {
+  background-color: #006970;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px; */
+}
+#div-3 {
+  background-color: #004241;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+#inner {
+  width: 80%;
+  /* background-color: aqua; */
+}
+button {
+  height: 50px;
+  width: 120px;
+  border-radius: 30px;
+  border: none;
+  font-size: medium;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+}
+p {
+  color: rgb(238, 237, 237);
+  font-size: large;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+#sedan {
+  height: 100px;
+  width: 100px;
+
+  margin-top: 10%;
+}
+#SUV {
+  height: 70px;
+  width: 100px;
+  margin-top: 10%;
+}
+#luxury {
+  height: 140px;
+  width: 100px;
+  margin-top: 10%;
+}
