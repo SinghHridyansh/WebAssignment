@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Raleway:wght@400;500&display=swap');
+
+body{
+font-family: 'Raleway', sans-serif;
+margin: 0%;
+    padding: 0%;
+    background-color: rgb(127, 127, 212);
+}
+.main{
+  
+    width: 100%;
+    display: flex;
+flex-direction: column;    
+text-align: center;
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+textarea{
+    width: 100%;
+    font-size: x-large;
+    border-radius: 10px;
+    border: 2px solid;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 700;  
+    margin-left: 3%;
+}
+.deletebutton{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 800;  
+    margin-left: 3%;
+}
+form{
+    margin-top: 2%;
+width: 40%;
+display: flex;
+}
+.upper  {
+    display: flex;
+    justify-content: center;
+    width: 1005;
+}
+p{
+    font-size: xx-large;
+    color: white;
+}
+.options{
+
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    height: 50px;
+
+}
