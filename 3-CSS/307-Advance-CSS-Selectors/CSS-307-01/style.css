@@ -1,1 +1,120 @@
-/* start your styling here  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+#main {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #26547b;
+}
+#conatiner {
+  /* background-color: #ef4770; */
+  background-color: black;
+  width: 40%;
+  height: 55%;
+  border-radius: 20px;
+}
+.insides {
+  margin: 20px;
+  height: 92%;
+
+  /* background-color: #05d6a0; */
+}
+.box-blue {
+  width: 120px;
+  height: 80px;
+  background-color: rgb(77, 0, 128);
+  box-shadow: 0px 5px rgb(80, 6, 80);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px #332538;
+}
+.box-yellow {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(77, 0, 128);
+  box-shadow: 0px 5px rgb(80, 6, 80);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-yellow2 {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(216, 45, 139);
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px rgb(100, 21, 65);
+}
+
+.box-equals {
+  width: 120px;
+  height: 80px;
+  background-color: rgb(216, 45, 139);
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px rgb(100, 21, 65);
+}
+.keypad {
+  display: grid;
+  /* grid-template-columns: 130px 130px 130px 130px; */
+  justify-content: space-around;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 5%;
+  gap: 20px;
+}
+.Text-area {
+  padding: 1%;
+  display: flex;
+
+  justify-content: space-around;
+}
+.box-area {
+  width: 480px;
+  height: 80px;
+  padding-right: 4%;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+  margin-right: 8%;
+  box-shadow: 0px 5px #332538;
+}
+.box-yellow:hover {
+  color: white;
+  background-color: grey;
+  transition: 0.1s ease-in-out;
+  box-shadow: 0px 5px #454446;
+}
+.box-blue:hover {
+  color: white;
+  background-color: grey;
+  transition: 0.1s ease-in-out;
+  box-shadow: 0px 5px #454446;
+}
+.box-equals:hover {
+  color: white;
+  background-color: grey;
+  transition: 0.1s ease-in-out;
+  box-shadow: 0px 5px #454446;
+}
