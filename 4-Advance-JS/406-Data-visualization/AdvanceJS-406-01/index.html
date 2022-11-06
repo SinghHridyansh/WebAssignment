@@ -4,9 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>AdvanceJS-406-01</title>
   </head>
   <body>
-    Start your code here
+    <div class="top">
+      <h1>WORLD COUNTRIES LIST</h1>
+      <h4>Total Number of Countries:193</h4>
+      <div class="buttons">
+        <button>STARTING WORD</button>
+        <button>SEARCH WITH ANY WORD</button>
+      </div>
+      <form id="search-form">
+        <input id="search-field" type="text" placeholder="Enter the country" />
+      </form>
+    </div>
+    <div class="bottom-region">
+      <table id="table"></table>
+    </div>
+    <script src="data/countries_data.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

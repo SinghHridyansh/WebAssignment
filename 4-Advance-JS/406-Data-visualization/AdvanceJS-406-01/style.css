@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Quicksand:wght@400;500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+table {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 2%;
+}
+
+td {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(97, 97, 161), lightblue);
+  color: white;
+  /* margin-top: 2%; */
+}
+.top {
+  color: white;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* background: url(https://wallpaperaccess.com/full/199469.jpg); */
+  background-image: url(https://wallpaperaccess.com/full/199469.jpg);
+  background-repeat: no-repeat;
+
+  /* padding-top: 4%; */
+}
+.top h1 {
+  margin: 0;
+  margin-top: 6%;
+  font-size: 60px;
+  font-weight: 300;
+}
+.top h4 {
+  margin: 0;
+  margin-top: 1%;
+  font-size: 20px;
+  font-weight: 300;
+}
+button {
+  margin: 0;
+  margin-top: 6%;
+  height: 45px;
+  background-color: blueviolet;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+}
+input {
+  margin-top: 6%;
+  width: 700px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.bottom-region {
+  width: 100%;
+  background-color: rgb(219, 219, 219);
+}
