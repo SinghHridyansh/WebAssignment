@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Quicksand:wght@400;500&display=swap");
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: xx-larger;
+  font-weight: 700;
+}
+#search-field {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+#search {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+td {
+  width: 640px;
+}
+
+table {
+  margin-top: 2%;
+  gap: 10px;
+  display: grid;
+  text-align: left;
+}
