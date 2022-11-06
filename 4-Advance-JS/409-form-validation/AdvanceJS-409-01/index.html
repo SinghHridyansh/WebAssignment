@@ -4,9 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>AdvanceJS-409-01</title>
   </head>
   <body>
-    Start your code here
+    <h1>Validating Web Forms</h1>
+    <div class="container">
+      <form id="submit">
+        <div class="form-group">
+          <label> First name </label>
+          <br />
+          <input type="text" name="" id="first_name" class="form-control" />
+          <span id="firsterror" ></span>
+        </div>
+        <div class="form-group">
+          <label> Last name </label>
+          <br />
+          <input type="text" name="" id="last_name" class="form-control" />
+          <span id="lasterror" ></span>
+        </div>
+        <div class="form-group">
+          <label> Email </label>
+          <br />
+          <input type="text" name="" id="email" class="form-control" />
+          <span id="emailerror" ></span>
+        </div>
+        <div class="form-group">
+          <label> Password </label>
+          <br />
+          <input type="password" name="" id="password" class="form-control" />
+          <span id="passerror" "></span>
+        </div>
+        <div class="form-group">
+          <label> Telephone </label>
+          <br />
+          <input type="text" name="" id="telephone" class="form-control" />
+          <span id="telephoneerror"></span>
+        </div>
+        <br />
+        <input type="submit" name="" class="submit" />
+      </form>
+    </div>
   </body>
 </html>
