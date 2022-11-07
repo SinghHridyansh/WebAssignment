@@ -1,1 +1,59 @@
-/* start your styling here  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Quicksand:wght@400;500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+button {
+  width: 150px;
+  height: 40px;
+  margin-left: 2%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.success {
+  background-color: white;
+  border: 3px solid seagreen;
+  color: seagreen;
+}
+.success:hover {
+  background-color: seagreen;
+  color: white;
+  transition: 0.2s;
+}
+.info {
+  background-color: white;
+  border: 3px solid rgb(87, 87, 221);
+  color: rgb(87, 87, 221);
+}
+.info:hover {
+  background-color: rgb(87, 87, 221);
+  color: white;
+  transition: 0.2s;
+}
+.warning {
+  background-color: white;
+  border: 3px solid orange;
+  color: orange;
+}
+.warning:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.2s;
+}
+.danger {
+  background-color: white;
+  border: 3px solid red;
+  color: red;
+}
+.danger:hover {
+  background-color: red;
+  color: white;
+  transition: 0.2s;
+}
