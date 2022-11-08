@@ -4,9 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>AdvanceJS-410-02</title>
   </head>
   <body>
-    Start your code here
+    <nav>
+      <div class="navcontainer">
+        <h1>Dictionary</h1>
+      </div>
+    </nav>
+    <section class="input container" style="margin-top: 2%;">
+      <h2>Find any word that exist in the world</h2>
+      <div class="form_wrap">
+        <div class="input_wrap">
+          <input type="text" id="input" placeholder="Type in a word" />
+          <button id="search">Search</button>
+        </div>
+      </div>
+    </section>
+    <section class="data container" style="display: flex;
+  justify-content: center;text-align: center; ">
+      <p class="def"></p>
+      <div class="not_found"></div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
