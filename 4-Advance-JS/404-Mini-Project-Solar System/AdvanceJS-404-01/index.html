@@ -4,9 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>AdvanceJS-401-01</title>
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    Start your code here
+    <p class="title">Calculate a weight of an object on a planet</p>
+    <div>
+      <div>
+        <div id="form">
+          <input  placeholder="Mass in Kilogram" id="mass" />
+          <select name="" id="planetSelec" onchange="fn(event)">
+            <option value="selectPlanet" selected disabled>
+              --Select planet--
+            </option>
+            <option value="mercury">MERCURY</option>
+            <option value="venus">VENUS</option>
+            <option value="earth">EARTH</option>
+            <option value="moon">MOON</option>
+            <option value="mars">MARS</option>
+            <option value="jupiter">JUPITER</option>
+            <option value="saturn">SATURN</option>
+            <option value="uranus">URANUS</option>
+            <option value="neptune">NEPTUNE</option>
+            <option value="pluto">PLUTO</option>
+          </select>
+          <button class="btn" onclick="calculateW()">
+            Calculate Weight
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div  id="warningDiv">
+      <div class="row">
+        <div>
+          <h1 id="show-warning"></h1>
+        </div>
+      </div>
+    </div>
+    <div id="calculateSec">
+          <div id="pltimg">
+            <img src="" alt="" id="planetImage" />
+          </div>
+          <div >
+            <p id="text">
+              The weight of the object on <span id="planetName"></span>
+            </p>
+            <span  id="weight"></span>
+          </div>
+    </div>
+
+   <script src="scrpit.js"></script>
   </body>
 </html>

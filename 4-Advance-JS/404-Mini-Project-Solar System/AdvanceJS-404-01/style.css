@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Quicksand:wght@400;500&display=swap');
+body {
+    background-image: url(ProjectImage/galaxy.gif);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    color: white;
+    font-size: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+  }
+  img {
+    width: 30%;
+    padding: 2%;
+  }
+  input {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    padding-left: 1%;
+  }
+  select {
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  .btn {
+    height: 50px;
+    width: 200px;
+    background-color: gray;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+  }
+  .banner {
+    background-color: rgba(245, 245, 245, 0.144);
+  }
+  .bannerw {
+    background-color: rgba(245, 245, 245, 0.144);
+    justify-content: center;
+  }
+  #weight {
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(245, 245, 245, 0.277);
+  }
+  span {
+    font-weight: 800;
+  }
+#text{
+    color: white;
+}
+#calculateSec{
+    width: 70%;
+    margin-top: 5%;
+    background-color: rgba(128, 128, 128, 0.568);
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2%;
+    border-radius: 40px;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px   ;
+}
+#show-warning{
+    color: red;
+    font-size: x-large;
+}
